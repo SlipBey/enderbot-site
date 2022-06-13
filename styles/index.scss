@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//@import 'tippy.js/dist/tippy.css';
+@import "react-toastify/dist/ReactToastify.css";
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	@apply bg-gray-800;
+	width: 7px;
+}
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+	@apply bg-purple-600;
+	border-radius: 5px;
+	&:hover {
+		@apply bg-purple-700;
+	}
+}
+::selection {
+	@apply bg-gray-700 text-purple-600;
+	text-shadow: none;
+}
