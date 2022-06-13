@@ -1,4 +1,4 @@
-# My software company webpage
+# My discord bot webpage
 
 Using [TypeScript](https://www.typescriptlang.org/), [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/)
 Demo: https://www.enderbot.net
