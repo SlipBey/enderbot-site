@@ -54,7 +54,7 @@ export const Footer: FC = () => {
 						Made with <FiHeart className="text-red-500 inline" /> by{" "}
 						<Link
 							underline
-							href="https://slip.slipyme.xyz"
+							href="https://slip.slipyme.com"
 							className="text-blue-600"
 						>
 							SlipBey
